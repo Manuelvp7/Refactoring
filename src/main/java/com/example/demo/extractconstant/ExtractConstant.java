@@ -3,6 +3,7 @@ package com.example.demo.extractconstant;
 import java.util.ArrayList;
 
 public class ExtractConstant {
+
     private static final String STRING = "string";
 
     public void method() {
