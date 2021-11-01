@@ -1,11 +1,10 @@
 package com.example.demo.safedelete;
 
-public class SafeDeleteUnusedField {
+public class SafeDeleteUnusedClassField {
 
     private final MyProperty myProperty;
 
-    public MyClass(MyProperty myProperty){
+    public SafeDeleteUnusedClassField(MyProperty myProperty) {
         this.myProperty = myProperty;
     }
-
 }

@@ -1,2 +1,4 @@
-package com.example.demo.safedelete;public class MyProperty {
+package com.example.demo.safedelete;
+
+public class MyProperty {
 }
