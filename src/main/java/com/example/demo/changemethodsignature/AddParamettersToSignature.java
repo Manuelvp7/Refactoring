@@ -2,6 +2,10 @@ package com.example.demo.changemethodsignature;
 
 public class AddParamettersToSignature {
     public void myMethod(int value) {
+        myMethod(value, 0.0);
+    }
+
+    public void myMethod(int value, double x) {
 
     }
 
