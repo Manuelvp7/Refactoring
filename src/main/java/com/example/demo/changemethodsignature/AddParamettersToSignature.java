@@ -1,7 +1,7 @@
 package com.example.demo.changemethodsignature;
 
 public class AddParamettersToSignature {
-    public void myMethod(int value) {
+    public void myMethod(int value, String aString) {
 
     }
 
@@ -9,7 +9,7 @@ public class AddParamettersToSignature {
         public void myMethodCall(AddParamettersToSignature myClass) {
             double d = 0.5;
 
-            myClass.myMethod(1);
+            myClass.myMethod(1, "HOLA");
         }
     }
 }
